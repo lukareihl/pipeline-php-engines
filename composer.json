@@ -33,9 +33,19 @@
         }
     },
     "require": {
-        "51degrees/fiftyone.pipeline.core": "4.*"
+        "51degrees/fiftyone.pipeline.core": "1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lukareihl/pipeline-php-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/lukareihl/javascript-templates"
+        }
+    ]
 }
